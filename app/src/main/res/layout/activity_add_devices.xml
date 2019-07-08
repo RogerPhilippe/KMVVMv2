@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content" android:id="@+id/linearLayout"
+              android:padding="8dp">
+
+    <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:id="@+id/add_device_txt_fab_model"
+            android:hint="@string/fab_model" android:layout_marginBottom="8dp"/>
+    <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:id="@+id/add_device_txt_model_name"
+            android:hint="@string/model_name" android:layout_marginBottom="8dp"/>
+    <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:id="@+id/add_device_year_fab"
+            android:hint="@string/year_fab" android:layout_marginBottom="8dp"/>
+    <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:id="@+id/add_device_manufacture_brand"
+            android:hint="@string/manufacture_brand" android:layout_marginBottom="8dp"/>
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+    >
+        <Button
+                android:text="@string/add_device_canbel_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" android:id="@+id/add_device_btn_cancel" android:layout_weight="1"/>
+        <Button
+                android:text="@string/add_device_save_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" android:id="@+id/add_device_btn_save" android:layout_weight="1"/>
+    </LinearLayout>
+</LinearLayout>
